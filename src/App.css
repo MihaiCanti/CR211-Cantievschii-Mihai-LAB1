@@ -1,0 +1,166 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #00ff11;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #005222;
+  box-shadow: 0   0 11110px rgb(21, 255, 0);
+  padding: 120px;
+  border-radius: 150px;
+  max-width: 400px;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+input[type="password"],
+input[type="text"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 4px solid #496286;
+  font-size: 30px;
+  color: #333;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="password"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: #005823;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: #00c213;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5b5e00;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* Additional Styles */
+
+form {
+  max-width: 600px;
+}
+
+label {
+  color: #019029;
+}
+
+button {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.container {
+  background-color: #3f7959;
+}
+
+input[type="password"],
+input[type="text"] {
+  background-color: #5a7b5e;
+  border: none;
+  border-bottom: 5px solid #11a900;
+  color: #1f5500;
+}
+
+input[type="password"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: #00c21d;
+}
+
+
+
+.input_cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  width: 80%;
+  height: 50px;
+}
+
+.main_cont{
+  width: 60%;
+  height: 90%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.input{
+  height: 45px;
+  background-color: rgba(9, 21, 47, 0.53);
+  outline: none;
+  border: 4px solid #09152f;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 20px;
+  color: #61dafb;
+}
